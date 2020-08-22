@@ -12,6 +12,7 @@ interface ApiInterface {
 
     fun registerStudent(@Body requestBody: RequestBody): Call<RegistrationResponse>
     abstract fun getCourses(s: String): Any
+    fun loginStudent(requestBody: Any): Any
 }
 
 
