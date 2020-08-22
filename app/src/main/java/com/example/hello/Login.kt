@@ -60,7 +60,7 @@ class Login: AppCompatActivity() {
                 }
             }
 
-        }
+        })
 
     }
 }
