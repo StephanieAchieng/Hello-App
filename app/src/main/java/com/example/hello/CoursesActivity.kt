@@ -1,11 +1,13 @@
 package com.example.hello
 
+import android.animation.ObjectAnimator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.telecom.Call
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.row_courses_item.*
 import retrofit2.Response
 import javax.security.auth.callback.Callback
@@ -16,11 +18,18 @@ class CoursesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_courses)
+        progressBar.max=1000
+        val currentProgress=600
+        ObjectAnimator.ofInt(progressBar,"progress",currentProgress)
+            .setDuration(20000)
+            .start()
+
 
         fetchCourses()
 
+
     }
-     fun fetchCourses() {
+    fun fetchCourses() {
         val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(baseContext)
         val accessToken = sharedPreferences.getString("ACCESS_TOKEN_KEY", "")
 
@@ -47,6 +56,4 @@ class CoursesActivity : AppCompatActivity() {
             }
         })
     }
-
-
 }

@@ -1,7 +1,5 @@
-package com.example.Hello
-
+package com.example.hello
 import com.google.gson.annotations.SerializedName
-import layout.Student
 
 data class RegistrationResponse(
     @SerializedName("message") var message: String,

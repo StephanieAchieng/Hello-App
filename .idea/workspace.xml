@@ -6,7 +6,23 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ebbf180-0b3b-4eb2-aab8-d8704a473794" name="Default Changelist" comment="" />
+    <list default="true" id="5ebbf180-0b3b-4eb2-aab8-d8704a473794" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hello/RegistrationResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hello/CoursesActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hello/CoursesActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hello/Login.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hello/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hello/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hello/Register.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hello/Register.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ApiClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hello/ApiClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ApiInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hello/ApiInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/RegistrationResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/Student.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_courses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_courses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +56,8 @@
       <list>
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -163,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598056875642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1598076452762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598076452763</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,26 +194,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596925760247">
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598136432969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596925760247" />
+    <state x="413" y="109" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598136432969" />
+    <state x="462" y="13" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1598136553359">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="13" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598136553359" />
     <state x="263" y="117" key="AndroidCreateResourceFileDialog" timestamp="1598075490243">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="117" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1598075490243" />
-    <state x="315" y="0" key="CommitChangelistDialog2" timestamp="1598056832865">
+    <state x="315" y="0" key="CommitChangelistDialog2" timestamp="1598076449153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="315" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598056832865" />
+    <state x="315" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598076449153" />
     <state x="499" y="140" key="chooseDestDirectoryDialog" timestamp="1597439867545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="499" y="140" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1597439867545" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1598074655577">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1598133322015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598074655577" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598133322015" />
     <state x="339" y="157" key="run.anything.popup" timestamp="1598074920355">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -200,7 +227,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/res/layout/ApiClient.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/hello/ApiClient.kt</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
