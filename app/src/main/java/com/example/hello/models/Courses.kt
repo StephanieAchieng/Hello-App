@@ -1,6 +1,7 @@
-package com.example.hello
+package com.example.hello.models
 
 import com.google.gson.annotations.SerializedName
+
 
 data class Course (
     @SerializedName("course_id") var courseId: String,

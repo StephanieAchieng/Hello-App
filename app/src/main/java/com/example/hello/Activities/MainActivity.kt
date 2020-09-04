@@ -1,4 +1,4 @@
-package com.example.hello
+package com.example.hello.Activities
 
 import android.animation.ObjectAnimator
 import android.content.Intent
@@ -6,6 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.widget.Toast
+import com.example.hello.API.ApiClient
+import com.example.hello.API.LoginApiInterface
+import com.example.hello.models.LoginResponse
+import com.example.hello.R
 import kotlinx.android.synthetic.main.activity_main.*
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
@@ -19,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         tvRegister.setOnClickListener {
-            val intent= Intent(baseContext,Register::class.java)
+            val intent= Intent(baseContext, Register::class.java)
         }
 
         btnLogin.setOnClickListener {

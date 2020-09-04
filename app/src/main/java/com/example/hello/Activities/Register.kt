@@ -1,10 +1,14 @@
-package com.example.hello
+package com.example.hello.Activities
 
 import android.animation.ObjectAnimator
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.hello.API.ApiClient
+import com.example.hello.API.ApiInterface
+import com.example.hello.R
+import com.example.hello.models.RegistrationResponse
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_register.*
 import kotlinx.android.synthetic.main.activity_register.etPassword
